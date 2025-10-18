@@ -1,0 +1,6 @@
+.berta {
+    width: 350px;
+}
+.berta:hover {
+    cursor: pointer;
+}

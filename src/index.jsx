@@ -26,7 +26,7 @@ function App() {
 
   return (
     <StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/cabezaso">
         <Routes>
           {/* Solo mostrar Login */}
           <Route path="/" element={<Login validUsers={validUsers} setCurrentUser={setCurrentUser} />} />

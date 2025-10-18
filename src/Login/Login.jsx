@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import clippyImg from '../assets/clippy.png';
 import './Login.css';
 
 function Login({ validUsers, setCurrentUser }) {
@@ -92,7 +93,7 @@ function Login({ validUsers, setCurrentUser }) {
       {/* Clippy aparece después de 10 intentos */}
       {showClippy && (
         <img
-          src="/assets/clippy.png"
+          src={clippyImg}
           alt="Clippy"
           className="clippy"
           onClick={toggleOverlay}

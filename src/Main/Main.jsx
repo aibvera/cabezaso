@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './Main.css';
-import bertaImg from '../assets/bertaPalta.png';
 
 function Main() {
 
@@ -15,7 +14,7 @@ function Main() {
 
       <h1>Mírala que bonita</h1>
       <img
-        src={bertaImg}
+        src="/assets/bertaPalta.png"
         alt="Berta"
         className="berta"
         onClick={toggleOverlay}
